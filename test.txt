@@ -1,0 +1,3 @@
+<PDFDownloadLink document={<PDFFile />} fileName="FORM">
+        {({loading}) => loading ? (<button>Document loading...</button>) : (<button>Download</button>)}
+      </PDFDownloadLink>
